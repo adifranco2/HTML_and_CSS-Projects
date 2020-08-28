@@ -1,0 +1,10 @@
+p {
+	color: seashell;
+	background: seagreen;
+	font-size: 18px;
+	text-align: center;
+}
+
+h3 {
+	text-shadow: 2px 2px 5px darkgreen;
+}
