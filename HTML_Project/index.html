@@ -3,41 +3,44 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Traveling to Antarctica</title>
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 	<body>
-	
-		<!--NAV-->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
-					<a href="#gallery" id="link"><li>GALLERY</li></a>
-					<a href="#contact" id="link"><li>REQUEST INFO</li></a>
+
+		<!--Nav-->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>CONTACT</li></a>
 				</ul>
 			</div>
 		</div>
-		<!--END NAV-->
-		<!--HOME-->
+		<!--End Nav-->
+
+		<!--Home-->
 		<div id="home">
-			<div>
-				<div>
-					<span>Antarctica</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Antarctica</span>
 				</div>
 			</div>
 		</div>
-		<!--END HOME-->
-		
-		<!--GALLERY-->
-		<section>
-			<div id="gallery">
+		<!--End Home-->
+
+		<!--Gallery-->
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
-				
+				<div class="flex-container">
+
 					<!--PHOTO-CONTAINER 1-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_1.jpg" alt="Penguins and visitors in the snow.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Meeting the penguins.</p>
 							</div>
@@ -46,10 +49,10 @@
 					<!--END PHOTO-CONTAINER 1-->
 					
 					<!--PHOTO-CONTAINER 2-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_2.jpg" alt="Seal lying next to the remains of a penguin.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>A leopard seal finishing his penguin lunch.</p>
 							</div>
@@ -58,10 +61,10 @@
 					<!--END PHOTO-CONTAINER 2-->
 					
 					<!--PHOTO-CONTAINER 3-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_3.jpg" alt="Large iceberg floating in the sea.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Icebergs</p>
 							</div>
@@ -70,10 +73,10 @@
 					<!--END PHOTO-CONTAINER 3-->
 					
 					<!--PHOTO-CONTAINER 4-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_4.jpg" alt="Mountain covered in ice and snow.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Some of the amazing sights you might see while visitng Antarctica.</p>
 							</div>
@@ -82,10 +85,10 @@
 					<!--END PHOTO-CONTAINER 4-->
 					
 					<!--PHOTO-CONTAINER 5-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_5.jpg" alt="Group of penguins on rocks.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>A colony of Gentoo and Ad&eacute;lie penguins.</p>
 							</div>
@@ -94,10 +97,10 @@
 					<!--END PHOTO-CONTAINER 5-->
 					
 					<!--PHOTO-CONTAINER 6-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_6.jpg" alt="Penguins on rocky beach.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Penguins on the beach.</p>
 							</div>
@@ -106,10 +109,10 @@
 					<!--END PHOTO-CONTAINER 6-->
 					
 					<!--PHOTO-CONTAINER 7-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_7.jpg" alt="Sleeping bags in snow.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Camping out on the Continent.</p>
 							</div>
@@ -118,10 +121,10 @@
 					<!--END PHOTO-CONTAINER 7-->
 					
 					<!--PHOTO-CONTAINER 8-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_8.jpg" alt="Buildings">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Antarctic research station.</p>
 							</div>
@@ -130,10 +133,10 @@
 					<!--END PHOTO-CONTAINER 8-->
 					
 					<!--PHOTO-CONTAINER 9-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_9.jpg" alt="Whale's tail above the water.">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Cruising with humpback whales.</p>
 							</div>
@@ -143,30 +146,30 @@
 				</div>
 			</div>
 		</section>
-		<!--END GALLERY-->
-		
-		<!--REQUEST INFO-->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Request More Information</h1>
-					<div>
+		<!--End Gallery-->
+
+		<!--Request Info-->
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Request More Information</h1>
+					<div class="reservation">
 						<h2><span>Your adventure at the bottom of the world awaits.</span>
-							<br />Request more information today!
+							<br/>Request more information today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="info" type="text" value="First Name">
-								<input class="info" type="text" value="Last Name">
-								<input class="info" type="text" value="Email Address">
-								<input class="info" Type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" Type="text" value="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -175,13 +178,15 @@
 				</div>
 			</div>
 		</section>
-		<!--END REQUEST INFO-->
-		
-		<!--FOOTER-->
-		<div>
+		<!--End Request Info-->
+
+		<!--Footer-->
+		<div id="footer">
 			www.visitantarctica.ice &nbsp;|&nbsp; &copy; 2020
 		</div>
-		<!--END FOOTER-->
+		<!--End Footer-->
+	
+	
 	
 	</body>
 </html>
